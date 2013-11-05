@@ -9,25 +9,31 @@ body {
 }
 
 p {
-	margin: 0px;
+	position: absolute;
+	right: 0;
 	text-align: right;
 	opacity: 1.0;
+	margin: 0 2%;
 }
 
 #content {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	padding: 0px;
-	margin: 1% 2%;
+	padding: 0;
+	position: relative;
 }
 
 #title {
 	font-size: 6em;
+	bottom: 48px;
 }
 
 #sub {
 	font-size: 1em;
+	bottom: 24px;
+}
+
+#content {
+	width: 61.8%;
+	height: 100%;
 }
 
 div {
